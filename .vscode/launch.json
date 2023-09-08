@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Activacion Entre Varios Nodos_5d96969c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "vmArgs": "--module-path ${env:PATH_TO_FX} --add-modules javafx.controls",
+            "mainClass": "${file}"
+        }
+    ]
+}
